@@ -7,8 +7,8 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <iostream>
-#define SIZE 5
-using namespace std;
+#define SIZE 5                                                    //Defining max size for the array
+using namespace std;                                              //To substitute using std with every std library function
 int largest(int arr[]);
 
 int main(){
@@ -21,6 +21,8 @@ int main(){
     max = largest(array);
     cout << "Largest element in the array is " << max << endl;
 }
+
+//Function that takes in array as an input argument and gives out the largest element
 int largest(int arr[])
 {
     int temp;
