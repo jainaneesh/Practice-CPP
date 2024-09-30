@@ -1,0 +1,1 @@
+Implement a class that takes in employee name, age and country. The class stores the information and displays them.
